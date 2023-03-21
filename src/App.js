@@ -25,7 +25,7 @@ function App() {
     if(prediction.score < 0.5){
       input.style.background = 'red';
     }
-    //
+    // condition de victoire pour la devinette
     if(input.value === "éventail"){
       input.style.background = "url('https://media.giphy.com/media/3o7TKsQ8UHdAaGK7l6/giphy.gif')";
     }
